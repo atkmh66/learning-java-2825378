@@ -3,25 +3,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // System.out.println("TextOut From IntelliJ");
+         System.out.println("Pick a number betweeen 1 and 10");
+         Scanner scanner = new Scanner(System.in);
 
-        int studentAge = 15;
-        double studentGpa = 3.45;
-        String studentFirstName = "Mark";
-        String studentLastName = "Atkinson";
-        char studentFirstInitial = studentFirstName.charAt(0);
-        char studentLastInitial = studentLastName.charAt(0);
-        boolean hasPerfectAttendance = true;
+         int inputtedNumber = scanner.nextInt();
 
-      //  System.out.println(studentFirstName);
-      //  System.out.println(studentLastName);
-        System.out.println(studentFirstName + " " + studentLastName + " " +
-                "has a GPA of: " + studentGpa);
-        System.out.println("What do you want to update it to?");
-        Scanner input = new Scanner(System.in);
-        studentGpa = input.nextDouble();
-        System.out.println(studentFirstName + " " + studentLastName + " " +
-                "Now has a GPA of: " + studentGpa);
+         if (inputtedNumber < 5 ) {
+             System.out.println("Enjoy the good luck a friend brings you");
+         } else {
+
+             System.out.println("Your shoe selection will make you happy");
+         }
+
     }
 }
 
