@@ -3,18 +3,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-         System.out.println("Pick a number betweeen 1 and 10");
-         Scanner scanner = new Scanner(System.in);
+         Scanner input = new Scanner(System.in);
+         boolean isOnRepeat = true;
 
-         int inputtedNumber = scanner.nextInt();
+         while(isOnRepeat) {
+             System.out.println("Playing current song");
+             System.out.println("Would you like to take the song off of repeat ?  If so, answer Yes ");
+             String userInput = input.next();
 
-         if (inputtedNumber < 5 ) {
-             System.out.println("Enjoy the good luck a friend brings you");
-         } else {
+             if(userInput.equals("yes")){
+                 isOnRepeat = false;
 
-             System.out.println("Your shoe selection will make you happy");
+             }
          }
-
+        System.out.println("Playing next song");
     }
 }
 
