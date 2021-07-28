@@ -3,20 +3,26 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);
-         boolean isOnRepeat = true;
+        Scanner inputScaner = new Scanner(System.in);
+        String question = "What is the answer to Life, the Universe, and Everything";
+        String choiceOne = "Work";
+        String choiceTwo = "42";
+        String choiceThree = "Mice";
 
-         while(isOnRepeat) {
-             System.out.println("Playing current song");
-             System.out.println("Would you like to take the song off of repeat ?  If so, answer Yes ");
-             String userInput = input.next();
+        String correctAnswer = choiceTwo;
+        String inputAnswer = "";
 
-             if(userInput.equals("yes")){
-                 isOnRepeat = false;
+        System.out.println(question);
+        System.out.println("Possible choices are: "+ choiceOne + ", " + choiceTwo + ", " + choiceThree);
+        inputAnswer = inputScaner.next();
 
-             }
-         }
-        System.out.println("Playing next song");
+        if (correctAnswer.equals( inputAnswer )) {// can also use inputAnswer.toLowerCase() allows all input
+                                                  // if all the answers were defined as lowwer case to start with
+            System.out.println("That Is Correct.  Well Done !!");
+        } else {
+            System.out.println("That answer was incorrect.");
+            System.out.println("The correct answer is: " + correctAnswer );
+        }
     }
 }
 
