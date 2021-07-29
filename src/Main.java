@@ -5,9 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner inputScaner = new Scanner(System.in);
         String question = "What is the answer to Life, the Universe, and Everything";
-        String choiceOne = "Work";
-        String choiceTwo = "42";
-        String choiceThree = "Mice";
+        String choiceOne = "work";
+        //String choiceTwo = "42";
+        String choiceTwo = "jupiter";
+        String choiceThree = "mice";
 
         String correctAnswer = choiceTwo;
         String inputAnswer = "";
@@ -16,7 +17,7 @@ public class Main {
         System.out.println("Possible choices are: "+ choiceOne + ", " + choiceTwo + ", " + choiceThree);
         inputAnswer = inputScaner.next();
 
-        if (correctAnswer.equals( inputAnswer )) {// can also use inputAnswer.toLowerCase() allows all input
+        if (correctAnswer.equals( inputAnswer.toLowerCase() )) {// can also use inputAnswer.toLowerCase() allows all input
                                                   // if all the answers were defined as lowwer case to start with
             System.out.println("That Is Correct.  Well Done !!");
         } else {
