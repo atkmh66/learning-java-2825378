@@ -10,12 +10,14 @@ public class Main {
         String choiceTwo = "jupiter";
         String choiceThree = "mice";
 
-        String correctAnswer = choiceTwo;
+        String correctAnswer= choiceTwo;
         String inputAnswer = "";
 
         System.out.println(question);
         System.out.println("Possible choices are: "+ choiceOne + ", " + choiceTwo + ", " + choiceThree);
         inputAnswer = inputScaner.next();
+//        System.out.println(inputAnswer); // debug code
+//        System.out.println(correctAnswer); // debug code
 
         if (correctAnswer.equals( inputAnswer.toLowerCase() )) {// can also use inputAnswer.toLowerCase() allows all input
                                                   // if all the answers were defined as lowwer case to start with
