@@ -4,22 +4,21 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static double calculateTotalMealPrice( double listedMealPrice,
-                                                double tipRate,
-                                                double texRate) {
-        double tip = tipRate * listedMealPrice;
-        double tax = texRate * listedMealPrice;
-        double result = listedMealPrice + tip + tax;
-        return result;
+    public static double calculateEmployeeSalary(Integer hoursPerWeek, double hourlyRate, Integer vacationDays) {
+
+       double yearlyHours = hoursPerWeek * 52;
+       double totalHours  = yearlyHours - (vacationDays * 8 );
+
+
+        double yearlyGrossSalary = totalHours * hourlyRate;
+        return yearlyGrossSalary;
 //        System.out.println("Your total meal price is " + result);
 
     }
     public static void main(String[] args) {
-        double groupTotalMealPrice = calculateTotalMealPrice(100, 0.2, 0.08);
-        System.out.println(groupTotalMealPrice);
+        double myEmployeeSalary = calculateEmployeeSalary(40, 15, 8);
+        System.out.println("40/per week @ 15/hour, with 8 vacation days comes to :" +myEmployeeSalary);
 
-        double individualMealPrice = groupTotalMealPrice / 5;
-        System.out.println(individualMealPrice);
     }
 
 }
