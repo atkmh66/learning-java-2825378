@@ -4,23 +4,20 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void announceDeveloperTeaTime(){
-        System.out.println("Waiting for developer tea time ...");
-        System.out.println("Type in a random work and press Enter to start developer Tea Time");
-        Scanner input = new Scanner(System.in);
-        input.next();// Without making an assignment, what ever we type and press enter will allow continuation
-        System.out.println("It's developer Tea Time");
+    public static void calculatetotalmealprice( double listedMealPrice,
+                                                double tipRate,
+                                                double texRate) {
+        double tip = tipRate * listedMealPrice;
+        double tax = texRate * listedMealPrice;
+        double result = listedMealPrice + tip + tax;
+        System.out.println("Your total meal price is " + result);
+
     }
     public static void main(String[] args) {
-        System.out.println("Welcome to the new job");
+        calculatetotalmealprice(15, 0.2, 0.08);
+        calculatetotalmealprice(25, 0.18, 0.08);
 
-        announceDeveloperTeaTime();
-        System.out.println("Write code");
-        System.out.println("Review code");
 
-        announceDeveloperTeaTime();
-
-        System.out.println("Get a better job");
     }
 
 }
