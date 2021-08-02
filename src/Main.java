@@ -3,21 +3,21 @@ import sun.lwawt.macosx.CSystemTray;
 import java.util.Scanner;
 
 public class Main {
-
-    public static double calculateEmployeeSalary(Integer hoursPerWeek, double hourlyRate, Integer vacationDays) {
-
-       double yearlyHours = hoursPerWeek * 52;
-       double totalHours  = yearlyHours - (vacationDays * 8 );
-
-
-        double yearlyGrossSalary = totalHours * hourlyRate;
-        return yearlyGrossSalary;
-//        System.out.println("Your total meal price is " + result);
-
-    }
     public static void main(String[] args) {
-        double myEmployeeSalary = calculateEmployeeSalary(40, 15, 8);
-        System.out.println("40/per week @ 15/hour, with 8 vacation days comes to :" +myEmployeeSalary);
+        Triangle triangleA = new Triangle(15,8,15,8,17);
+        Triangle triangleB = new Triangle(3,2.598,3,3,3);
+        double triangleAArea = triangleA.findArea();
+        System.out.println("The area for triangle A is: "+triangleAArea);
+        double triangleBArea = triangleB.findArea();
+        System.out.println("The area for triangle B is: "+triangleBArea);
+
+        System.out.println(triangleA.sideLenThree);
+        System.out.println(triangleB.base);
+
+        System.out.println(Triangle.numOfSides);
+
+
+
 
     }
 
