@@ -1,3 +1,5 @@
+import sun.lwawt.macosx.CSystemTray;
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +12,15 @@ public class Main {
         System.out.println("It's developer Tea Time");
     }
     public static void main(String[] args) {
+        System.out.println("Welcome to the new job");
+
         announceDeveloperTeaTime();
+        System.out.println("Write code");
+        System.out.println("Review code");
+
+        announceDeveloperTeaTime();
+
+        System.out.println("Get a better job");
     }
 
 }
