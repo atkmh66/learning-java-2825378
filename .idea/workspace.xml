@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14377dec-e05e-4f2d-ab87-dd8f094aaf13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -38,6 +38,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Triangle.java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -53,7 +57,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="14377dec-e05e-4f2d-ab87-dd8f094aaf13" name="Default Changelist" comment="" />
@@ -76,15 +83,33 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Triangle.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="210" y="110" width="1040" height="577" key="#Project_Structure" timestamp="1629001163584">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state x="210" y="110" width="1040" height="577" key="#Project_Structure/0.40.1600.860@0.40.1600.860" timestamp="1629001163584" />
+    <state x="523" y="258" key="FileChooserDialogImpl" timestamp="1629001748781">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state x="523" y="258" key="FileChooserDialogImpl/0.40.1600.860@0.40.1600.860" timestamp="1629001748781" />
+    <state width="1226" height="324" key="GridCell.Tab.0.bottom" timestamp="1629002047227">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1226" height="324" key="GridCell.Tab.0.bottom/0.40.1600.860@0.40.1600.860" timestamp="1629002047227" />
+    <state width="1226" height="324" key="GridCell.Tab.0.center" timestamp="1629002047226">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1226" height="324" key="GridCell.Tab.0.center/0.40.1600.860@0.40.1600.860" timestamp="1629002047226" />
+    <state width="1226" height="324" key="GridCell.Tab.0.left" timestamp="1629002047226">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1226" height="324" key="GridCell.Tab.0.left/0.40.1600.860@0.40.1600.860" timestamp="1629002047226" />
+    <state width="1226" height="324" key="GridCell.Tab.0.right" timestamp="1629002047226">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1226" height="324" key="GridCell.Tab.0.right/0.40.1600.860@0.40.1600.860" timestamp="1629002047226" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_java_2825378$Main.ic" NAME="Main Coverage Results" MODIFIED="1629002047192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
