@@ -1,22 +1,16 @@
-//import sun.lwawt.macosx.CSystemTray;
+import sun.lwawt.macosx.CSystemTray;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Triangle triangleA = new Triangle(15,8,15,8,17);
-        Triangle triangleB = new Triangle(3,2.598,3,3,3);
-        double triangleAArea = triangleA.findArea();
-        System.out.println("The area for triangle A is: "+triangleAArea);
-        double triangleBArea = triangleB.findArea();
-        System.out.println("The area for triangle B is: "+triangleBArea);
 
-        System.out.println(triangleA.sideLenThree);
-        System.out.println(triangleB.base);
+        StudentProfile myStudentA = new StudentProfile("Mike", "Hunt", 1943, 2.666,"Underwater Basket Weaving");
+        StudentProfile myStudentB = new StudentProfile("Jack","Mehoff",1999,3.789,"Inflight Missle Repair");
 
-        System.out.println(Triangle.numOfSides);
-
-
+        System.out.println(myStudentA.studentFirstName+" "+myStudentA.studentLastName +" expected graduation is "+myStudentA.expectedYearGraduate);
+        myStudentA.incrementGradYear();
+        System.out.println("After class delays, "+myStudentA.studentFirstName+"'s graduation will be "+myStudentA.expectedYearGraduate);
 
 
     }
