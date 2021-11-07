@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14377dec-e05e-4f2d-ab87-dd8f094aaf13" name="Default Changelist" comment="" />
+    <list default="true" id="14377dec-e05e-4f2d-ab87-dd8f094aaf13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +60,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="14377dec-e05e-4f2d-ab87-dd8f094aaf13" name="Default Changelist" comment="" />
@@ -80,6 +86,28 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1230" height="195" key="GridCell.Tab.0.bottom" timestamp="1630551355497">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1230" height="195" key="GridCell.Tab.0.bottom/0.40.1600.860@0.40.1600.860" timestamp="1630551355497" />
+    <state width="1230" height="195" key="GridCell.Tab.0.center" timestamp="1630551355497">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1230" height="195" key="GridCell.Tab.0.center/0.40.1600.860@0.40.1600.860" timestamp="1630551355497" />
+    <state width="1230" height="195" key="GridCell.Tab.0.left" timestamp="1630551355497">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1230" height="195" key="GridCell.Tab.0.left/0.40.1600.860@0.40.1600.860" timestamp="1630551355497" />
+    <state width="1230" height="195" key="GridCell.Tab.0.right" timestamp="1630551355497">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1230" height="195" key="GridCell.Tab.0.right/0.40.1600.860@0.40.1600.860" timestamp="1630551355497" />
+    <state x="10" y="104" key="new project wizard" timestamp="1630472933501">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state x="10" y="104" key="new project wizard/0.40.1600.860@0.40.1600.860" timestamp="1630472933501" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -90,5 +118,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_java_2825378$Main.ic" NAME="Main Coverage Results" MODIFIED="1629002047192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
